@@ -1,0 +1,19 @@
+.data-list {
+    text-align: center;
+    padding: 32px;
+    background-color: #D9F7E9;
+}
+
+.data-list h3 {
+    font-size: 32px;
+    border-bottom: 4px solid #57C278;
+    display: inline-block;
+    padding-botton: 8px;
+}
+
+.data-list .data-card {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 37px;
+    flex-wrap: wrap
+}

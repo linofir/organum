@@ -1,0 +1,26 @@
+.footer {
+    background-color: #6278f7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 37px;
+    flex-wrap: wrap;
+    padding: 64px;
+}
+
+.footer .social-midia {
+    display: flex;
+    justify-content: space-around;
+    gap: 32px
+}
+
+.footer .social-midia img {
+    width: 24px;
+    height: 24px
+}
+
+.footer h3 {
+    font-size: 24px;
+    color: white;
+}
+
