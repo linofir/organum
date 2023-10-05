@@ -2,6 +2,7 @@
     text-align: center;
     padding: 32px;
     background-color: #D9F7E9;
+    position: relative;
 }
 
 .data-list h3 {
@@ -16,4 +17,10 @@
     justify-content: space-around;
     margin-top: 37px;
     flex-wrap: wrap
+}
+
+.data-list .input-color {
+    position: absolute;
+    top: 20px;
+    right: 50px
 }

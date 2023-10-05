@@ -3,6 +3,8 @@ import Button from "../Button/Button";
 import DropDown from "../DropDown/DropDown";
 import TextInput from "../TextInput/TextInput";
 import "./Form.css";
+import { v4 as uuidv4 } from 'uuid';
+
 
 
 const Form = (props) => {
@@ -27,6 +29,7 @@ const Form = (props) => {
   const  saved = (event) =>  {
     event.preventDefault();
     props.submitData({
+      id: uuidv4(),
       instituicao,
       vencimento,
       status,
